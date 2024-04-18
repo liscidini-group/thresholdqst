@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Binosi"
+  given-names: "Daniele"
+- family-names: "Garberoglio"
+  given-names: "Giovanni"
+- family-names: "Maragnano"
+  given-names: "Diego"
+- family-names: "Dapor"
+  given-names: "Maurizio"
+- family-names: "Liscidini"
+  given-names: "Marco"
+title: "tqst: A Python library to implement threshold quantum state tomography for qubits."
+version: 1.0.0
+date-released: 2024-04-18
+url: "https://github.com/liscidini-group/thresholdqst"
