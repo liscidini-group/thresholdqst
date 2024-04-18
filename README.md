@@ -39,7 +39,7 @@ Now we have all the necessary tools to deal with tQST.
 # Set up the experiment
 
 In this section we learn how to prepare the stage for a tQST experiment.  
-The notebook `example.ipynb` reproduces the code presented here, together with a 2-qubit example, and can be used as a template for other tQST experiments. Click [here](https://github.com/liscidini-group/tQST/blob/main/example.ipynb) to access the notebook.
+The notebook `example.ipynb` reproduces the code presented here, together with a 2-qubit example, and can be used as a template for other tQST experiments. Click [here](https://github.com/liscidini-group/thresholdqst/blob/main/example.ipynb) to access the notebook.
 After importing the necessary dependencies, we start by creating an instance of the tQST class, providing the number of qubits (in this case 3) as argument:
 ```{python}
 tomo = tQST(3)
@@ -134,7 +134,7 @@ print(F)
 We have completed our first tQST experiment for a 3-qubit system. There are still a few things to mention
 The user can find some notebooks in the Github repository.    
 The three tutorial notebooks explore in more detail all the topics covered in this document.  
-In particular, `tutorial1.ipynb` (click [here](https://github.com/liscidini-group/tQST/blob/main/tutorial1.ipynb) to access the notebook) explains how to generate and visualize other kinds of density matrices.   
-`tutorial2.ipynb`, which you can find at this [link](https://github.com/liscidini-group/tQST/blob/main/tutorial2.ipynb), focuses on how to find the projective measurements, given the threshold and the diagonal counts.  
-`tutorial3.ipynb` provides several examples of tQST experiments with simulated data, and an alternative way to provide the experimental measurement outcomes based on the use of Numpy array instead of Python dictionary. At [this link](https://github.com/liscidini-group/tQST/blob/main/tutorial3.ipynb) you can find the corresponding notebook.  
-Finally, the notebook `bell_state_test.ipynb` implements tQST using experimental data provided in this [paper](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.64.052312). This is the [link to the notebook](https://github.com/liscidini-group/tQST/blob/main/bell_state_test.ipynb).
+In particular, `tutorial1.ipynb` (click [here](https://github.com/liscidini-group/thresholdqst/blob/main/tutorial1.ipynb) to access the notebook) explains how to generate and visualize other kinds of density matrices.   
+`tutorial2.ipynb`, which you can find at this [link](https://github.com/liscidini-group/thresholdqst/blob/main/tutorial2.ipynb), focuses on how to find the projective measurements, given the threshold and the diagonal counts.  
+`tutorial3.ipynb` provides several examples of tQST experiments with simulated data, and an alternative way to provide the experimental measurement outcomes based on the use of Numpy array instead of Python dictionary. At [this link](https://github.com/liscidini-group/thresholdqst/blob/main/tutorial3.ipynb) you can find the corresponding notebook.  
+Finally, the notebook `bell_state_test.ipynb` implements tQST using experimental data provided in this [paper](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.64.052312). This is the [link to the notebook](https://github.com/liscidini-group/thresholdqst/blob/main/bell_state_test.ipynb).
