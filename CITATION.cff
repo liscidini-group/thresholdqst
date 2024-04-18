@@ -11,7 +11,7 @@ authors:
   given-names: "Maurizio"
 - family-names: "Liscidini"
   given-names: "Marco"
-title: "tqst: A Python library to implement threshold quantum state tomography for qubits."
+title: "thresholdqst: A Python library to implement threshold quantum state tomography for qubits."
 version: 1.0.0
 date-released: 2024-04-18
 url: "https://github.com/liscidini-group/thresholdqst"
