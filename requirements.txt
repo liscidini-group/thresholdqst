@@ -1,0 +1,6 @@
+matplotlib
+numpy
+prettytable
+psutil
+scipy
+tqdm
