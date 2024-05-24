@@ -70,6 +70,7 @@ We now set the threshold for the experiment. The threshold can be computed using
 gini = dmt.gini_index(diagonal)
 threshold = tomo.set_threshold(gini)
 ```
+Check [these notes](https://github.com/liscidini-group/thresholdqst/blob/main/gini_index_tqst.pdf) for details on how to use the Gini index as a threshold.
 
 <a id="find-projective-measurements"></a>
 # Find the projective measurements
