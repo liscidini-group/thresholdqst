@@ -209,6 +209,25 @@ def get_rank(matrix_V):
 
     return(r, r==max_rank)
 
+def gini_index(vector):
+  """
+  Returns the (rescaled) Gini index of the diagonal of the density matrix.
+  """
+
+  ord_vector = np.sort(vector)
+
+  sum = 0
+
+  N = len(ord_vector)
+
+  for k in range(N):
+      sum += (ord_vector[k] / np.linalg.norm(ord_vector, 1)) * ((N - (k+1) + 0.5) / N)
+
+  gini = (1 - 2*sum) / ((1 - (1/N)))
+
+  gini = gini / N
+
+  return gini
 
 from matplotlib.patches import Circle, PathPatch
 import mpl_toolkits.mplot3d.art3d as art3d
