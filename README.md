@@ -2,7 +2,7 @@
 ### Daniele Binosi, Giovanni Garberoglio, Diego Maragnano, Maurizio Dapor, and Marco Liscidini
 
 This Python package implements Threshold Quantum State Tomography (tQST), a novel approach for quantum state tomography that reduces the number of measurements required to reconstruct the density matrix of a single- or multi-qubit system.  
-Details about the protocol can be found at [Binosi, D., Garberoglio, G., Maragnano, D., Dapor, M., & Liscidini, M. (2024). *A Tailor-made Quantum State Tomography Approach.* arXiv preprint arXiv:2401.12864.](https://arxiv.org/abs/2401.12864).  
+Details about the protocol can be found at [D. Binosi, G. Garberoglio, D. Maragnano, M. Dapor, M. Liscidini; A tailor-made quantum state tomography approach. APL Quantum 1 September 2024; 1 (3): 036112.](https://doi.org/10.1063/5.0219143).  
 
 - [Threshold Quantum State Tomography (tQST)](#threshold-quantum-state-tomography-tqst)
     - [Daniele Binosi, Giovanni Garberoglio, Diego Maragnano, Maurizio Dapor, and Marco Liscidini](#daniele-binosi-giovanni-garberoglio-diego-maragnano-maurizio-dapor-and-marco-liscidini)
