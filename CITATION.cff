@@ -16,7 +16,7 @@ authors:
 - family-names: "Liscidini"
   given-names: "Marco"
   orcid: "https://orcid.org/0000-0003-4001-9569"
-title: "tresholdqst: A Python library to implement threshold quantum state tomography for qubits."
+title: "thresholdqst: A Python library to implement threshold quantum state tomography for qubits."
 version: 1.0.0
 date-released: 2024-04-18
 url: "https://github.com/liscidini-group/thresholdqst"
